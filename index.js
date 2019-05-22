@@ -34,7 +34,7 @@ module.exports = function LetMeDrink(dispatch) {
         message('Use the desired skill and check proxy console.', true);
     });
 
-    dispatch.hook('S_LOGIN', 12, (event) => {
+    dispatch.hook('S_LOGIN', 13, (event) => {
         loadConfig();
         oCid = event.gameId;
         oJob = (event.templateId - 10101) % 100;

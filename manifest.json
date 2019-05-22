@@ -1,21 +1,23 @@
 {
-  "files": {
-    "skills.js": {
-        "overwrite": false,
-        "hash": "d42176af07aef3123c3235b5dd34296650da9f8c6d3e5bb8e946fa867c54e965"
+    "files": {
+        "README.md": "95cca296af0d598b1cbf386673a3dc7ba0d0776f9cb5384f0d067248da910e5f",
+        "config.json": {
+            "overwrite": false,
+            "hash": "a812503cb69d7525b472a4b7e05914a3bfe140952619a09d0cec98e86dcaaa44"
+        },
+        "index.js": "6d0843fd4d8f4c93e021fe7fc6823e00b5c38c79e7a4ee2d74f1fdbf60b4c06d",
+        "module.json": "5409c36988bf5f1621aab9cb2566e9563a7bb45b6683dcbffa8461b0a3c23dd9",
+        "skills.js": {
+            "overwrite": false,
+            "hash": "d42176af07aef3123c3235b5dd34296650da9f8c6d3e5bb8e946fa867c54e965"
+        }
     },
-    "config.json": {
-        "overwrite": false,
-        "hash": "a812503cb69d7525b472a4b7e05914a3bfe140952619a09d0cec98e86dcaaa44"
-    },
-    "index.js": "126ddf1622638f1dcb0face3e88bd1b2f1f13b3bc432b6acdecfc3365075c0e4"
-  },
-  "defs": {   
-    "S_LOGIN": 12,
-    "C_PLAYER_LOCATION": 5,
-    "S_INVEN": 18,    
-    "S_START_COOLTIME_ITEM": 1,
-    "C_START_SKILL": 7,    
-    "C_USE_ITEM": 3
-  }
+    "defs": {
+        "C_PLAYER_LOCATION": 5,
+        "C_START_SKILL": 7,
+        "C_USE_ITEM": 3,
+        "S_INVEN": 18,
+        "S_LOGIN": 13,
+        "S_START_COOLTIME_ITEM": 1
+    }
 }
